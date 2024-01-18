@@ -1,0 +1,425 @@
+body{
+  background-color: rgb(56, 176, 136);
+  height: 100%;
+  z-index: 0;
+ 
+}
+
+.home-bookmark-block{
+  position: relative;
+  width: 50px;
+  height: 25px;
+  margin-top: 0px;
+}
+
+.title-page{
+  position: relative;
+  z-index: 100;
+}
+.name {
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 75px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 200px;
+  transition: font-size 0.75s;
+}
+.name:hover {
+  /*color:rgb(79, 228, 178);*/
+  color: rgb(71, 86, 165);
+  transition: color 0.75s;
+  font-size: 100px;
+  transition: font-size 0.75s;
+}
+
+.title-description {
+  margin-top: 0px;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 25px;
+  font-family: 'Overpass', sans-serif;
+  margin-left: 70px;
+  margin-right: 200px;
+  transition: font-size 0.75s
+}
+
+.title-description:hover {
+  color: rgb(71, 86, 165);
+  /*color:rgb(79, 228, 178);*/
+  transition: color 0.75s;
+  font-size: 30px;
+  transition: font-size 0.75s
+}
+
+
+.triangle {
+  position: absolute;
+  position: fixed;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  margin-top: -250px;
+  border-top: 300px solid transparent;
+  border-left: 600px solid #54c7a1;
+  border-bottom: 300px solid transparent;
+  z-index: 50;
+}
+
+.about-bookmark-block{
+  display: none;
+  margin-top: 0px;
+}
+
+.about-page {
+  position: relative;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(71, 86, 165);
+  border-radius: 25px;;
+  z-index: 300;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  transition: 0.75s;
+}
+
+.about-page:hover {
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.about-photo {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 40px;
+  border-width: 2px;
+  border-color: black;
+}
+
+.about-text-location {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 25px;
+  margin-left: 320px;
+  padding-top: 50px;
+}
+
+.about-text-description {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+
+.skills-bookmark-block{
+  margin-top: 0px;
+  display: none;
+}
+
+.skills-page {
+  position: relative;
+  margin-top: 115px;
+  height: 365px;
+  background-color: rgb(81, 99, 164, 0.3);
+  margin-left: -20px;
+  margin-right: -20px;
+  z-index: 300;
+  transition: 0.5s;
+  
+}
+
+.skills-page:hover {
+  background-color: rgb(81, 99, 164, 0.9);
+  transition: 0.5s;
+}
+
+.skills-page:hover .skills-title {
+  color: white;
+}
+
+.skills-page:hover .skills-listed {
+  color: white;
+}
+
+
+.skills-title {
+  margin-left: 60px;
+  padding-top: 25px;
+  font-family: "Overpass Mono", monospace;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 70px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.skills-listed {
+  color: rgb(255,255,255,0.3);
+  font-family: "Space Mono", monospace;
+  letter-spacing: -2px;
+  margin-left: 70px;
+  font-size: 45px;
+  display: grid;
+  grid-template-columns: 350px 350px; 
+  column-gap: 10px;
+  row-gap: 0px;
+}
+
+
+
+.project-bookmark-block {
+  display: none;
+  margin-top: 100px;
+}
+
+.projects-title {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 700;
+  font-size: 75px;
+  letter-spacing: -6px;
+  text-decoration: overline;
+  z-index: 301;
+  transition: 0.5s;
+}
+.projects-title:hover {
+  font-size: 90px;
+  transition: 0.5s;
+}
+.projects-page {
+  position: relative;
+  margin-top: 45px;
+  margin-left: 65px;
+  margin-right: 65px;
+  height: 900px;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: rgb(71, 86, 165);
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  /*display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  height: 800px;
+  column-gap: 65px;\
+  row-gap: 65px;
+  */
+  z-index: 301;
+}
+
+.gameThumbnail1 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 120px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.gameThumbnail2 {
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 120px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.gameThumbnail3 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 490px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.gameThumbnail4 {
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 490px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.projectName1 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: -6px;
+  z-index: 301;
+  transition: 0.5s;
+}
+
+.project1Description {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 1000px;
+  text-align: left;
+  color: white;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: -3px;
+}
+
+.contact-bookmark-block {
+  display: none;
+  margin-top: 0px;
+}
+
+.contact-page {
+  position: relative;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(71, 86, 165);
+  border-radius: 25px;;
+  z-index: 300;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  transition: 0.75s;
+  margin-bottom: 150px;
+}
+
+.contact-page:hover {
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.github-icon {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 80px;
+  transition: 0.5s;
+ 
+}
+
+.github-icon:hover {
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  margin-top: 40px;
+  margin-left: 80px;
+  transition: 0.5s;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.github-icon:active {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  margin-top: 40px;
+  margin-left: 80px;
+  transition: 0.5s;
+}
+
+.linkedin-icon {
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 250px;
+  transition: 0.5s;
+}
+
+.linkedin-icon:hover {
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  margin-top: 7px;
+  margin-left: 230px;
+  transition: 0.5s;
+}
+
+.linkedin-icon:active {
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 250px;
+  transition: 0.5s;
+}
+
+.email-icon {
+  position: absolute;
+  margin-top: 93px;
+  margin-left: 465px;
+  text-align: center;
+  color: white;
+  letter-spacing: -6px;
+  text-decoration: underline;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 700;
+  font-size: 50px;
+  transition: 0.5s;
+}
+
+.email-icon:hover {
+  position: absolute;
+  margin-top: 83px;
+  margin-left: 465px;
+  text-align: center;
+  color: white;
+  letter-spacing: -6px;
+  text-decoration: underline;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 700;
+  font-size: 60px;
+  transition: 0.5s;
+  text-shadow: 2px 2px 8px black;
+}
+
+.email-icon:active {
+  position: absolute;
+  margin-top: 93px;
+  margin-left: 465px;
+  text-align: center;
+  color: white;
+  letter-spacing: -6px;
+  text-decoration: underline;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 700;
+  font-size: 50px;
+  transition: 0.5s;
+  text-shadow: 2px 2px 2px black;
+}
+.email-icon-text{
+    color: white;
+  }
+
