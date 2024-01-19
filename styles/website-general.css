@@ -195,9 +195,29 @@ body{
   font-size: 90px;
   transition: 0.5s;
 }
-.projects-page {
+.project-1 {
   position: relative;
   margin-top: 45px;
+  margin-left: 65px;
+  margin-right: 65px;
+  height: 900px;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: rgb(71, 86, 165);
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  /*display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  height: 800px;
+  column-gap: 65px;\
+  row-gap: 65px;
+  */
+  z-index: 301;
+}
+
+.project-2 {
+  position: relative;
+  margin-top: 100px;
   margin-left: 65px;
   margin-right: 65px;
   height: 900px;
