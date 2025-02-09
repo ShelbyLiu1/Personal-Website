@@ -287,6 +287,48 @@ body{
   box-shadow: 0 0 15px rgba(0,0,0,0.8);
 }
 
+.climbingThumbnail1 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 120px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  object-fit: cover; /
+}
+
+.climbingThumbnail2 {
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 120px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  object-fit: cover; /
+}
+
+.climbingThumbnail3 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 490px;
+  height: 320px;
+  width: 420px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  object-fit: cover; 
+}
+
 .projectName1 {
   position: absolute;
   margin-top: 30px;
